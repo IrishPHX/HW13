@@ -63,8 +63,8 @@ A summary of the access policies in place can be found in the table below.
 
 ### Elk Configuration
 
-Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous because...
-- _TODO: What is the main advantage of automating configuration with Ansible? - Similar as to Filebeat and Metricbeat, You can input commands into multiple servers from a single playbook
+Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous because System installation and updates can be done efficiently.
+- What is the main advantage of automating configuration with Ansible? - Similar as to Filebeat and Metricbeat, You can input commands into multiple servers from a single playbook
 
 
 The playbook implements the following tasks:
