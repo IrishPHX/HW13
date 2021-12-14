@@ -29,8 +29,8 @@ Load balancing ensures that the application will be highly *available*, in addit
 - What is the advantage of a jump box? - A Jump Box is a way to use the interenet to create a single entry point to other machins from a specific IP and then to other machines.
 
 Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the *log files* and *system resources*.
-- _TODO: What does Filebeat watch for? - Filebeat monitors for log files, collects log events,
-- _TODO: What does Metricbeat record? - Metricbeat records metrics and statistics
+- What does Filebeat watch for? - Filebeat monitors for log files, collects log events,
+- What does Metricbeat record? - Metricbeat records metrics and statistics
 
 The configuration details of each machine may be found below.
 _Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdown_tables) to add/remove values from the table_.
@@ -67,9 +67,10 @@ Ansible was used to automate configuration of the ELK machine. No configuration 
 - _TODO: What is the main advantage of automating configuration with Ansible?_
 
 The playbook implements the following tasks:
-- _TODO: In 3-5 bullets, explain the steps of the ELK installation play. E.g., install Docker; download image; etc._
-- ...
-- ...
+- Install docker.io
+- Install Python3-pip
+- Install Docker Python Mod
+- Download and launch ELK container
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
