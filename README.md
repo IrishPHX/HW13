@@ -3,7 +3,7 @@
 
 The files in this repository were used to configure the network depicted below.
 
-![TODO: Update the path with the name of your diagram](https://github.com/IrishPHX/HW13/blob/main/HW13%20Diagram.jpg?raw=true)
+![TODO: Update the path with the name of your diagram](https://github.com/IrishPHX/HW13/blob/main/Diagrams/HW13%20Diagram.jpg?raw=true)
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the **anisble playbook** file may be used to install only certain pieces of it, such as Filebeat.
 
